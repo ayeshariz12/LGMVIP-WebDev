@@ -1,0 +1,21 @@
+.App {
+    text-align: center;
+}
+
+.Home {
+    padding-top: 5%;
+}
+
+.para {
+    padding-left: 5%;
+}
+
+.bar {
+    padding: 2% 5%;
+}
+
+.card:hover {
+    transform: scale(1.04);
+    border: none;
+    transition: all 200ms ease-in-out;
+}
