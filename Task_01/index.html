@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Rawayat Jewellary</title>
+	<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css'>
+	<link rel="stylesheet" href="style2.css">
+	<style>
+		body {
+			background-image: url('12.jpg'); 
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+			background-size: cover;
+		}
+	</style>
+</head>
+
+<body>
+	<!-- partial:index.partial.html -->
+	<div class="container" id="container">
+		<div class="form-container sign-up-container">
+			<form action="index.html" id="form" method="GET">
+				<h1>Create Account</h1>
+				<div class="social-container">
+					<a href="https://www.facebook.com/rawayat.jewels" class="social"><i
+							class="fab fa-facebook-f"></i></a>
+					<a href="https://www.youtube.com/channel/UCdfkk961L4sd8bTDZgfJDqg" class="social"><i
+							class="fab fa-google-plus-g"></i></a>
+					<a href="https://www.linkedin.com/in/ayesha-k-51796b193/" class="social"><i
+							class="fab fa-linkedin-in"></i></a>
+				</div>
+				<span>or use your email for registration</span>
+				<input type="text" class="input-fields" placeholder="Name" id="username" />
+				<input type="email" class="input-fields" placeholder="Email" id="email" />
+				<input type="password" class="input-fields" placeholder="Password" id="password" />
+				<input type="submit" value="Sign up" class="button" id="button">
+			</form>
+		</div>
+		<div class="form-container sign-in-container">
+			<form action="index.html" id="form2" method="GET">
+				<h1>Sign in</h1>
+				<div class="social-container">
+					<a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+					<a href="" class="social"><i class="fab fa-google-plus-g"></i></a>
+					<a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+				</div>
+				<span>or use your account</span>
+				<input type="email" class="input-fields" placeholder="Email" id="email2" />
+				<input type="password" class="input-fields" placeholder="Password" id="password2" />
+				<a href="#">Forgot your password?</a>
+				<input type="submit" value="Sign in" class="button" id="button">
+			</form>
+		</div>
+		<div class="overlay-container">
+			<div class="overlay">
+				<div class="overlay-panel overlay-left">
+					<h1>Welcome Back!</h1>
+					<p>To keep connected with us please login with your personal info</p>
+					<button class="ghost" id="signIn">Sign In</button>
+				</div>
+				<div class="overlay-panel overlay-right">
+					<h1>RAWAYAT JEWELLARY</h1>
+					<p>Enter your personal details and start journey with us</p>
+					<button class="ghost" id="signUp">Sign Up</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<!-- partial -->
+	<script>
+		const form = document.getElementById('form');
+		const form2 = document.getElementById('form2');
+		const username = document.getElementById('username');
+		const email = document.getElementById('email');
+		const password = document.getElementById('password');
+		const email2 = document.getElementById('email2');
+		const password2 = document.getElementById('password2');
+		const signUpButton = document.getElementById('signUp');
+		const signInButton = document.getElementById('signIn');
+		const container = document.getElementById('container');
+
+		signUpButton.addEventListener('click', () => {
+			container.classList.add("right-panel-active");
+		});
+
+		signInButton.addEventListener('click', () => {
+			container.classList.remove("right-panel-active");
+		});
+
+
+		form.addEventListener('submit', e => {
+			e.preventDefault();
+			checkInputs();
+
+		});
+
+		form2.addEventListener('submit', e => {
+			e.preventDefault();
+			checkInputs2();
+
+
+
+		});
+
+
+		function checkInputs() {
+			// trim to remove the whitespaces
+			const usernameValue = username.value.trim();
+			const emailValue = email.value.trim();
+			const passwordValue = password.value.trim();
+			const emailValue2 = email2.value.trim();
+			const passwordValue2 = password2.value.trim();
+			if (usernameValue === '') {
+				alert('Username cannot be blank');
+			}
+
+			if (emailValue === '') {
+				alert('Email cannot be blank');
+			}
+
+			if (passwordValue === '') {
+				alert('password cannot be blank');
+			}
+			else if (passwordValue.length < 5) {
+				alert("Password Must be greater than 5 letters")
+			}
+
+		}
+
+
+		function checkInputs2() {
+
+			const emailValue2 = email2.value.trim();
+			const passwordValue2 = password2.value.trim();
+
+			if (emailValue2 === '') {
+				alert('Email cannot be blank');
+			}
+
+			if (passwordValue2 === '') {
+				alert('password cannot be blank');
+			}
+			else if (passwordValue2.length < 5) {
+				alert("Password Must be greater than 5 letters")
+			}
+
+		}
+
+	</script>
+
+</body>
+
+</html>

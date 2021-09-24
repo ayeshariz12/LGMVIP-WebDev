@@ -1,0 +1,47 @@
+div{
+
+	background-color: yellow;
+	border: 20px solid blue;
+	margin: 100px;
+	padding: 100px;
+	/*width:500px;
+	height: 500px;*/
+	max-width: 100%;
+	height: auto;
+}
+
+div:hover{
+	border-radius: 30px;
+	box-shadow: 0 0 30 50 rgba(200,50,100,0.5)
+}
+
+a:active{
+	color:red;
+}
+a:visited{
+	color:green;
+}
+a:link{
+	color:yellow;
+}
+a:hover{
+	color:pink;
+}
+
+ul.unordered{
+	list-style-type: square;
+}
+
+ol.ordered{
+	list-style-type: upper-roman;
+}
+
+
+
+table.tab1 th,td{
+
+	border: 5px solid black;
+	padding: 12px;
+	/*width: 100%;
+	height: auto;*/
+}

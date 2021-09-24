@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Rawayat.com</title>
+	<meta charset = "utf-8">
+    <meta name = "viewport" content = "width=device-width, initial-scale = 1, shrink-to-fit = no">
+    
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script><script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    
+    
+    
+</head>
+<body>
+	<hr size="6px" id="row1" color="lightgreen">
+	<header>
+	<h1 style="text-align: center;" id="h1a">
+		RAWAYAT JEWELLARY
+	</h1><br>
+	<h4 id="h4a" style="">We deliver class and purity</h4>
+	</header>
+	<hr size="6px" id="row1" color="lightgreen">
+    
+    
+    <div class="container">
+        
+    <div class="box">
+        <div class="imgbox">
+        <img src="im1.jpg" width="300px" height="300px">
+            
+        </div>
+        <div class="details">
+            <div class="content">
+            <hr color="blue"><br>
+                <h2 id="hi">LBL CASUAL FLEECE HOODIE</h2><br><hr color="blue"><br>
+                <p id="hi">US$45.99* · Brand: FashionDads
+    Gender: : Men, Item Type: : Hoodies,Sweatshirts, Type: : Regular, Sleeve Style: : Regular, Hooded: : Yes, Pattern Type: : Patchwork, Collar: : Hooded, ...</p>
+            </div>
+        </div>
+    </div>
+    <div class="box">
+        <div class="imgbox">
+        <img src="im2.jpg" width="300px" height="300px">
+        </div>
+        <div class="details">
+            <div class="content">
+            <hr color="blue"><br>
+                <h2 id="hi">COOL SWEATSHIRT MEN HIP HOP</h2><br><hr color="blue"><br>
+                <p id="hi">US$36.00* ·
+Gender: Men Item Type: Sweatshirts Sleeve Length(cm): Full Thickness: US$34.56* · In stock · Brand: Waliicorner's Store O-Neck Style: Hip Hop ...</p>
+            </div>
+        </div>
+        
+    </div>
+    <div class="box">
+        
+        <div class="imgbox">
+        <img src="im3.jpg" width="300px" height="300px">
+        </div>
+        <div class="details">
+            <div class="content">
+            <hr color="blue"><br>
+                <h2 id="hi">3D PRINT GOBLIN SLAYER</h2><br><hr color="blue"><br>
+                <p id="hi">US$45.99* · Brand: FashionDads
+    Gender: : Men, Item Type: : Hoodies,Sweatshirts, Type: : Regular, Sleeve Style: : Regular, Hooded: : Yes, Pattern Type: : Patchwork, Collar: : Hooded, ...</p>
+            </div>
+        </div>
+        
+    </div>
+    <div class="box">
+        
+        <div class="imgbox">
+        <img src="im4.jpg" width="300px" height="300px">
+        </div>
+        <div class="details">
+            <div class="content">
+            <hr color="blue"><br>
+                <h2 id="hi">HOT SALE 3D Printed Hoodie</h2><br><hr color="blue"><br>
+                <p id="hi">₹2,451.00* · In stock
+Gender: Men Item Type: Hoodies,Sweatshirts Sleeve Length(cm): Full Collar: O-Neck Closure Type: None Thickness: Standard Style: Hip Hop Clothing ..</p>
+            </div>
+        </div>
+        
+    </div>
+    <div class="box">
+        
+        <div class="imgbox">
+        <img src="im5.jpg" width="300px" height="300px">
+        </div>
+        <div class="details">
+            <div class="content">
+            <hr color="blue"><br>
+                <h2 id="hi">BEST HOODIES FOR MEN</h2><br><hr color="blue"><br>
+                <p id="hi">US$40.99* · Brand: FashionDads
+    Gender: : Men, Item Type: : Hoodies,Sweatshirts, Hooded: : Yes, Pattern Type: : Patchwork, Collar: : Hooded, ...</p>
+            </div>
+        </div>
+        
+    </div>
+    <div class="box">
+        
+        <div class="imgbox">
+        <img src="im6.jpg" width="300px" height="300px">
+        </div>
+        <div class="details">
+            <div class="content">
+            <hr color="blue"><br>
+                <h2 id="hi">TOMMY HELFIGER HOODIES FOR MEN</h2><br><hr color="blue"><br>
+                <p id="hi">US$39.00* · In stock · Brand: FashionDads
+    Gender: : Men, Sleeve Style: : Regular, Hooded: : Yes, Pattern Type: : Patchwork, Collar: : Hooded, ...</p>
+            </div>
+        </div>
+        
+    </div>
+    <div class="box">
+        
+        <div class="imgbox">
+        <img src="im7.jpg" width="300px" height="300px">
+        </div>
+        <div class="details">
+            <div class="content">
+            <hr color="blue"><br>
+                <h2 id="hi">AVENGERS ENDGAME QUANTUM HOODIE</h2><br><hr color="blue"><br>
+                <p id="hi">US$43.00* · In stock · Brand: Emdeefashion
+... Marvel Fans Hip Hop Sweatshirt Pullover Pocket Streetwear Outerwear Drop Shipping, Sleeve Style: : Regular, Hooded: : Yes, Pattern Type: : Patchwork, Collar: : Hooded, ...</p>
+            </div>
+        </div>
+        
+        
+    </div>
+    <div class="box">
+        
+         <div class="imgbox">
+        <img src="im8.jpg" width="300px" height="300px">
+        </div>
+        <div class="details">
+            <div class="content">
+            <hr color="blue"><br>
+                <h2 id="hi">GOOCHI HOODIE</h2><br><hr color="blue"><br>
+                <p id="hi">US$1,980.00* · Brand: Gucci · In stock · Brand: FashionDads
+    Gender: : Men, Sleeve Style: : Regular, Hooded: : Yes, Pattern Type: : Patchwork, Collar: : Hooded, ...</p>
+            </div>
+        </div>
+        
+    </div>
+        
+        
+        <div class="box">
+        
+         <div class="imgbox">
+        <img src="im9.jpg" width="300px" height="300px">
+        </div>
+        <div class="details">
+            <div class="content">
+            <hr color="blue"><br>
+                <h2 id="hi">MONOGRAM MOTIF HOOD</h2><br><hr color="blue"><br>
+                <p id="hi">US$1,980.00* · AED 590.00*·Brand: Burberry
+    Gender: : Men, Sleeve Style: : Regular, Hooded: : Yes, Pattern Type: : Patchwork, Collar: : Hooded, ...</p>
+            </div>
+        </div>
+        
+    </div>
+        
+        
+        <div class="box">
+        
+         <div class="imgbox">
+        <img src="im10.jpg" width="300px" height="300px" usemap="#imap">
+        </div>
+            <map name="imap" id="#imap">
+            <area shape="rect" coords="4,55,219,130" href="image.html" target="_blank">
+            </map>
+<!--
+        <div class="details">
+            <div class="content">
+            <hr color="blue"><br>
+                <h2 id="hi">SMART HOOD</h2><br><hr color="blue"><br>
+                <p id="hi">US$1,700.00*
+    Gender: : Men, Sleeve Style: : Regular, Hooded: : Yes, Pattern Type: : Patchwork ...</p>
+            </div>
+        </div>
+-->
+        
+    </div>
+        
+        <div class="box">
+        
+         <div class="imgbox">
+        <img src="im11.jpg" width="300px" height="300px">
+        </div>
+        <div class="details">
+            <div class="content">
+            <hr color="blue"><br>
+                <h2 id="hi">STYLISH X HOOD</h2><br><hr color="blue"><br>
+                <p id="hi">US$1,300.00* · 
+    Gender: : Men, Sleeve Style: : Regular, Pattern Type: : Patchwork, Collar: : Hooded, ...</p>
+            </div>
+        </div>
+        
+    </div>
+        
+        
+        
+        
+    
+    
+    </div>
+    
+    
+    <script>
+        window.onload=function(){
+            
+            var ltpc=document.getElementById("canvas");
+            var context=ltpc.getContext('2d');
+            var radius=50;
+            var x=50;
+            var y=50;
+            var scalex=2;
+            var scaley=2;
+            var changex=75;
+            var changey=75;
+            var skewx=0;
+            var skewy=0;
+            context.arc(x,y,radius,0,2*Math.PI,false);
+            context.transform(scalex,skewx,skewy,scaley,changex,changey);
+            context.arc(x,y,radius,0,2*Math.PI,false);
+            context.fill();
+            
+        }
+    
+    </script>
+
+    <br>
+    <br>
+    
+    
+    <footer>
+		<div>
+		<img src="footer.png" alt="Rawayat" align="left">
+	    <i><h2 id="h4a">© 2018 Copyright:
+         Bawaparty.com<br>
+         Bawaparty.facebook.com <br>
+        Bawaparty.youtube.com 
+            </h2></i>
+        
+
+</div>
+       
+	</footer>
+
+
+</body>
+</html>
